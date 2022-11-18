@@ -1,0 +1,66 @@
+.criptografia {
+   margin-top: 6%;
+}
+
+.criptografia__campo {
+   background: none;
+   resize: none;
+   border: none;
+
+   font-size: 1.4rem;
+   color: var(--azul-escuro);
+
+   width: 100%;
+   max-height: 264px;
+
+}
+
+.criptografia__campo::placeholder {
+   color: var(--azul-escuro);
+}
+
+.criptografia__aviso {
+   display: flex;
+   align-items: center;
+
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+
+.criptografia__aviso-imagem{
+   margin-right: 6px;
+}
+
+.criptografia__aviso-texto {
+   color: var(--cinza);
+
+   font-size: 0.8rem;
+}
+
+.criptografia__botoes {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.criptografia__botao-criptografia {
+   background: var(--azul-escuro);
+   color: var(--branco);
+
+   margin-bottom: 8%;
+}
+
+.criptografia__botao-descriptografia {
+   color: var(--azul-escuro);
+   background: none;
+}
+
+@media screen and (min-width: 768px){
+   .criptografia__botoes {
+      flex-direction: row;
+   }
+   .criptografia__botao-criptografia{
+      margin-bottom: 0;
+      margin-right: 2rem;
+   }
+}

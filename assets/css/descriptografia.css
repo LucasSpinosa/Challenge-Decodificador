@@ -1,0 +1,33 @@
+.descriptografia {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   margin-top: 6%;
+}
+
+.descriptografia__campo {
+   background: var(--branco);
+   resize: none;
+
+   border-radius: 18px;
+   border: none;
+
+   font-size: 1.4rem;
+
+   width: 100%;
+   max-height: 264px;
+}
+
+.descriptografia__campo::placeholder{
+   font-weight: bold;
+   color: var(--cinza);
+
+   text-align: center;
+}
+
+.descriptografia__botao {
+   color: var(--azul-escuro);
+   background: var(--branco);
+   margin-top: 3%;
+}
