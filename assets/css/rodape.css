@@ -1,5 +1,5 @@
 .rodape{
-  background: var(--bg-rodape);
+  background: var(--cinza);
 
   display: flex;
   flex-direction: column;
@@ -25,4 +25,11 @@
 
 .rodape__navegacao-item:first-child{
   margin-right: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

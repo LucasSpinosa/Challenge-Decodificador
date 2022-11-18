@@ -2,9 +2,8 @@
    --azul-claro: #F3F5FC;
    --azul-escuro: #0A3871;
    --branco: #FFFFFF;
-   --cinza: #343A40;
-
-   --bg-rodape: #D8DFE8;
+   --cinza-escuro: #343A40;
+   --cinza: #D8DFE8;
 
    --inter: 'Inter', sans-serif;
    --roboto: 'Roboto Condensed', sans-serif;
@@ -33,5 +32,12 @@ body {
 @media screen and (min-width: 768px){
    .botao {
       width: 332px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .conteudoPrincipal {
+      display: flex;
+      justify-content: space-between;
    }
 }

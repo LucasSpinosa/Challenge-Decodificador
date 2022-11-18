@@ -11,8 +11,8 @@
    color: var(--azul-escuro);
 
    width: 100%;
-   max-height: 264px;
 
+   max-height: 264px;
 }
 
 .criptografia__campo::placeholder {
@@ -32,8 +32,7 @@
 }
 
 .criptografia__aviso-texto {
-   color: var(--cinza);
-
+   color: var(--cinza-escuro);
    font-size: 0.8rem;
 }
 
@@ -58,9 +57,29 @@
 @media screen and (min-width: 768px){
    .criptografia__botoes {
       flex-direction: row;
+      justify-content: space-around;
    }
    .criptografia__botao-criptografia{
       margin-bottom: 0;
-      margin-right: 2rem;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .criptografia {
+      margin-top: 3%;
+      padding-left: 7%;
+   }
+   .criptografia__campo {
+      height: 60vh;
+      max-height: fit-content;
+   }
+   .criptografia__aviso {
+      margin-top: 2%;
+   }
+   .criptografia__botao-criptografia{
+      margin-right: 6%;
+   }
+   .criptografia__botao-descriptografia{
+      background-color: var(--cinza);
    }
 }

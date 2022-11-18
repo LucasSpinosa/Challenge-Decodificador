@@ -21,7 +21,7 @@
 
 .descriptografia__campo::placeholder{
    font-weight: bold;
-   color: var(--cinza);
+   color: var(--cinza-escuro);
 
    text-align: center;
 }
@@ -30,4 +30,24 @@
    color: var(--azul-escuro);
    background: var(--branco);
    margin-top: 3%;
+}
+
+@media screen and (min-width: 1024px){
+   .descriptografia{
+      margin-top: 0;
+   }
+   .descriptografia__campo{
+      height: 72vh;
+      max-height: fit-content;
+      
+      background-image: url(/assets/img/placeholder.png);
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   .descriptografia__campo::placeholder{
+      color: var(--branco);
+   }
+   .descriptografia__botao{
+      margin-top: 5%;
+   }
 }
