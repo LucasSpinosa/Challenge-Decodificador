@@ -1,0 +1,15 @@
+.botao__descriptografia{
+   color: var(--azul-escuro);
+}
+
+@media screen and (min-width: 0px){
+   .botao__descriptografia{
+      background: none;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .botao__descriptografia{
+      background-color: var(--cinza);
+   }
+}

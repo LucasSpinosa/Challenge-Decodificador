@@ -1,0 +1,25 @@
+.criptografia__campo {
+   background: none;
+   border: none;
+   color: var(--azul-escuro);
+   font-size: 1.4rem;
+   resize: none;
+   width: 100%;
+}
+
+.criptografia__campo::placeholder {
+   color: var(--azul-escuro);
+}
+
+@media screen and (min-width: 0px){
+   .criptografia__campo{
+      max-height: 264px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .criptografia__campo {
+      height: 60vh;
+      max-height: fit-content;
+   }
+}

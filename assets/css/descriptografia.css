@@ -1,53 +1,17 @@
 .descriptografia {
+   align-items: center;
    display: flex;
    flex-direction: column;
-   align-items: center;
-
-   margin-top: 6%;
 }
 
-.descriptografia__campo {
-   background: var(--branco);
-   resize: none;
-
-   border-radius: 18px;
-   border: none;
-
-   font-size: 1.4rem;
-
-   width: 100%;
-   max-height: 264px;
-}
-
-.descriptografia__campo::placeholder{
-   font-weight: bold;
-   color: var(--cinza-escuro);
-
-   text-align: center;
-}
-
-.descriptografia__botao {
-   color: var(--azul-escuro);
-   background: var(--branco);
-   margin-top: 3%;
+@media screen and (min-width: 0px) {
+   .descriptografia{
+      margin-top: 6%;
+   }
 }
 
 @media screen and (min-width: 1024px){
    .descriptografia{
       margin-top: 0;
-   }
-   .descriptografia__campo{
-      height: 72vh;
-      max-height: fit-content;
-      
-      background-image: url(/assets/img/placeholder.png);
-      background-repeat: no-repeat;
-      background-position: center;
-   }
-   .descriptografia__campo::placeholder{
-      color: var(--branco);
-   }
-   .descriptografia__botao{
-      margin-top: 5%;
    }
 }

@@ -2,9 +2,9 @@
    --azul-claro: #F3F5FC;
    --azul-escuro: #0A3871;
    --branco: #FFFFFF;
-   --cinza-escuro: #343A40;
    --cinza: #D8DFE8;
-
+   --cinza-escuro: #343A40;
+   
    --inter: 'Inter', sans-serif;
    --roboto: 'Roboto Condensed', sans-serif;
 }
@@ -14,29 +14,8 @@ body {
    font-family: var(--inter);
 }
 
-.container {
-   padding-left: 4%;
-   padding-right: 4%;
-}
-
-.botao {
-   width: 100%;
-   max-width: 343px;
-
-   height: 55px;
-
-   border: 1px solid var(--azul-escuro);
-   border-radius: 28px;
-}
-
-@media screen and (min-width: 768px){
-   .botao {
-      width: 332px;
-   }
-}
-
 @media screen and (min-width: 1024px){
-   .conteudoPrincipal {
+   .conteudo {
       display: flex;
       justify-content: space-between;
    }

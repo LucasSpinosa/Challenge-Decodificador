@@ -1,0 +1,35 @@
+.descriptografia__campo {
+   background: var(--branco);
+   border: none;
+   border-radius: 18px;
+   font-size: 1.4rem;
+   resize: none;
+   width: 100%;
+}
+
+.descriptografia__campo::placeholder{
+   font-weight: bold;
+   text-align: center;
+}
+
+@media screen and (min-width: 0px){
+   .descriptografia__campo{
+      max-height: 264px;
+   }
+   .descriptografia__campo::placeholder{
+      color: var(--cinza-escuro);
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .descriptografia__campo{
+      background-image: url(/assets/img/placeholder.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 72vh;
+      max-height: fit-content;
+   }
+   .descriptografia__campo::placeholder{
+      color: var(--branco);
+   }
+}

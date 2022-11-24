@@ -19,30 +19,44 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" href="assets/css/reset.css">
-      <link rel="stylesheet" href="assets/css/base.css">
-      <link rel="stylesheet" href="assets/css/cabecalho.css">
-      <link rel="stylesheet" href="assets/css/criptografia.css">
-      <link rel="stylesheet" href="assets/css/descriptografia.css">
-      <link rel="stylesheet" href="assets/css/rodape.css">
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link rel="stylesheet" href="./assets/css/container.css">
+      <link rel="stylesheet" href="./assets/css/logo.css">
+      <link rel="stylesheet" href="./assets/css/conteudo.css">
+      <link rel="stylesheet" href="./assets/css/criptografia.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/criptografia-campo.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/criptografia-aviso.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/criptografia-imagem.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/criptografia-botoes.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/botao-criptografia.css">
+      <link rel="stylesheet" href="./assets/css/criptografia/botao-descriptografia.css">
+      <link rel="stylesheet" href="./assets/css/botao.css">
+      <link rel="stylesheet" href="./assets/css/descriptografia.css">
+      <link rel="stylesheet" href="./assets/css/descriptografia/descriptografia-campo.css">
+      <link rel="stylesheet" href="./assets/css/descriptografia/descriptografia-botao.css">
+      <link rel="stylesheet" href="./assets/css/rodape.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-copyright.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-navegacao.css">
+      <link rel="stylesheet" href="./assets/css/rodape/rodape-link.css">
    </head>
    <body>
-      <header class="cabecalho container">
-         <img src="assets/img/logo-alura.svg" alt="Logo da Alura" class="cabecalho__logo">
+      <header class="container">
+         <img src="assets/img/logo-alura.svg" alt="Logo da Alura" class="logo">
       </header>
 
-      <main class="conteudoPrincipal">
+      <main class="conteudo">
          <section class="criptografia container">
             <textarea rows="10" placeholder="Digite seu texto" class="criptografia__campo"></textarea>
             <div class="criptografia__aviso">
-               <img src="assets/img/aviso.svg" class="criptografia__aviso-imagem">
-               <p class="criptografia__aviso-texto">Apenas letras minúsculas e sem acento.</p>
+               <img src="assets/img/aviso.svg" class="criptografia__imagem">
+               <p class="criptografia__texto">Apenas letras minúsculas e sem acento.</p>
             </div>
             <div class="criptografia__botoes">
-               <button class="criptografia__botao-criptografia botao">Criptografar</button>
-               <button class="criptografia__botao-descriptografia botao">Descriptografar</button>
+               <button class="botao__criptografia botao">Criptografar</button>
+               <button class="botao__descriptografia botao">Descriptografar</button>
             </div>
          </section>
+
          <section class="descriptografia container">
             <textarea rows="10" placeholder="Nenhuma mensagem encontrada." class="descriptografia__campo"></textarea>
             <button class="descriptografia__botao botao">Copiar</button>
@@ -52,13 +66,13 @@
       <footer class="rodape">
          <p class="rodape__copyright">&#169; Desenvolvido por Lucas de Lima Spinosa dos Santos - 2022</p>
          <ul class="rodape__navegacao">
-            <li class="rodape__navegacao-item">
-               <a href="https://github.com/LucasSpinosa" class="rodape__link">
+            <li class="rodape__link">
+               <a href="https://github.com/LucasSpinosa">
                   <img src="assets/img/logo-github.svg" alt="Logo do GitHub">
                </a>
             </li>
-            <li class="rodape__navegacao-item">
-               <a href="https://www.linkedin.com/in/lucas-spinosa-frontend/" class="rodape__link">
+            <li class="rodape__link">
+               <a href="https://www.linkedin.com/in/lucas-spinosa-frontend/">
                   <img src="assets/img/logo-linkedin.svg" alt="Logo do LinkedIn">
                </a>
             </li>

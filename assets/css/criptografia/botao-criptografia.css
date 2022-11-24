@@ -1,0 +1,22 @@
+.botao__criptografia {
+   background: var(--azul-escuro);
+   color: var(--branco);
+}
+
+@media screen and (min-width: 0px){
+   .botao__criptografia{
+      margin-bottom: 8%;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .botao__criptografia{
+      margin-bottom: 0%;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .botao__criptografia{
+      margin-right: 6%;
+   }
+}

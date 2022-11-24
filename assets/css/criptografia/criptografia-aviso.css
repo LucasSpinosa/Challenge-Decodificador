@@ -1,0 +1,17 @@
+.criptografia__aviso {
+   align-items: center;
+   display: flex;
+   margin-bottom: 4%;
+}
+
+@media screen and (min-width: 0px){
+   .criptografia__aviso{
+      margin-top: 4%;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .criptografia__aviso {
+      margin-top: 2%;
+   }
+}

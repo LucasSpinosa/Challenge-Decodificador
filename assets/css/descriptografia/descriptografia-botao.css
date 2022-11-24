@@ -1,0 +1,16 @@
+.descriptografia__botao {
+   background: var(--branco);
+   color: var(--azul-escuro);
+}
+
+@media screen and (min-width: 0px){
+   .descriptografia__botao{
+      margin-top: 3%;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .descriptografia__botao{
+      margin-top: 5%;
+   }
+}
