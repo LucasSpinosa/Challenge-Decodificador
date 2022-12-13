@@ -3,6 +3,8 @@
    const campoDescriptografia = document.querySelector('[data-texto-descriptografia]');
    const botaoCriptografia = document.querySelector('[data-botao-criptografia]');
    const botaoDescriptogafia = document.querySelector('[data-botao-descriptografia]');
+   const botaoCopia = document.querySelector('[data-botao-copia]');
+
       
    const criptografia = () => {
       let texto = campoCriptografia.value;
@@ -51,11 +53,14 @@
       }
    } 
    
+   const copiaTexto = () => {
+      navigator.clipboard.writeText(campoDescriptografia.value);
+   }
+
    botaoCriptografia.addEventListener('click', criptografia);
    botaoCriptografia.addEventListener('click', verificaTexto);
-
-
    botaoDescriptogafia.addEventListener('click', descriptografia);
    botaoDescriptogafia.addEventListener('click', verificaTexto);
+   botaoCopia.addEventListener('click', copiaTexto);
 }
 )() 
