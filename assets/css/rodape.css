@@ -1,5 +1,4 @@
 .rodape{
-  align-items: center;
   background: var(--cinza);
   display: flex;
   margin-top: 2rem;
@@ -15,6 +14,7 @@
 
 @media screen and (min-width: 1024px) {
   .rodape{
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
   }

@@ -3,6 +3,11 @@
    color: var(--branco);
 }
 
+.botao__criptografia:active{
+   background: var(--amarelo);
+   color: var(--azul-escuro);
+}
+
 @media screen and (min-width: 0px){
    .botao__criptografia{
       margin-bottom: 8%;

@@ -2,6 +2,10 @@
    color: var(--azul-escuro);
 }
 
+.botao__descriptografia:active{
+   background: var(--amarelo);
+}
+
 @media screen and (min-width: 0px){
    .botao__descriptografia{
       background: none;

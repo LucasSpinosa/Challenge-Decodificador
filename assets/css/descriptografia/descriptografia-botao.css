@@ -1,6 +1,11 @@
 .descriptografia__botao {
    background: var(--branco);
    color: var(--azul-escuro);
+   display: none;
+}
+
+.descriptografia__botao:active{
+   background: var(--amarelo);
 }
 
 @media screen and (min-width: 0px){
