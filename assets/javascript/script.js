@@ -37,8 +37,25 @@
          
       campoDescriptografia.value = texto;   
    }
+
+   const verificaTexto = () =>{
+      if(campoDescriptografia.value.length > 0){
+         botaoCopia.style.display ="block";
+         campoDescriptografia.style.backgroundImage = "none";
+      }
+      else{
+         botaoCopia.style.display = "none";
+   
+         if(window.innerWidth >= 1024)
+            campoDescriptografia.style.backgroundImage = "url('https://i.ibb.co/CHmksNd/placeholder.png')";
+      }
+   } 
    
    botaoCriptografia.addEventListener('click', criptografia);
+   botaoCriptografia.addEventListener('click', verificaTexto);
+
+
    botaoDescriptogafia.addEventListener('click', descriptografia);
+   botaoDescriptogafia.addEventListener('click', verificaTexto);
 }
 )() 
