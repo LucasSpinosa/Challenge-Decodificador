@@ -1,12 +1,3 @@
-<!-- Usar
-
-*Emmet                                 *Flexbox
-*Viewport                              *REM e EM
-*Mobile First                          
-*SVG e tipos de imagem
-*Variáveis CSS
--->
-
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
@@ -46,20 +37,20 @@
 
       <main class="conteudo">
          <section class="criptografia container">
-            <textarea rows="10" placeholder="Digite seu texto" class="criptografia__campo"></textarea>
+            <textarea rows="10" placeholder="Digite seu texto" class="criptografia__campo" data-texto-criptografia></textarea>
             <div class="criptografia__aviso">
                <img src="assets/img/aviso.svg" class="criptografia__imagem">
                <p class="criptografia__texto">Apenas letras minúsculas e sem acento.</p>
             </div>
             <div class="criptografia__botoes">
-               <button class="botao__criptografia botao">Criptografar</button>
-               <button class="botao__descriptografia botao">Descriptografar</button>
+               <button class="botao__criptografia botao" data-botao-criptografia>Criptografar</button>
+               <button class="botao__descriptografia botao" data-botao-descriptografia>Descriptografar</button>
             </div>
          </section>
 
          <section class="descriptografia container">
-            <textarea rows="10" placeholder="Nenhuma mensagem encontrada." class="descriptografia__campo"></textarea>
-            <button class="descriptografia__botao botao">Copiar</button>
+            <textarea rows="10" placeholder="Nenhuma mensagem encontrada." class="descriptografia__campo" data-texto-descriptografia readonly></textarea>
+            <button class="descriptografia__botao botao" data-botao-copia>Copiar</button>
          </section>
       </main>
 
@@ -78,5 +69,6 @@
             </li>
          </ul>
       </footer>
+      <script src="./assets/javascript/script.js"></script>
    </body>
 </html>
