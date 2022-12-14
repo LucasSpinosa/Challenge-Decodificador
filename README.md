@@ -23,12 +23,24 @@ Conditions:
 
 ### *Desktop*
 
+<div align="center">
+   
 ![Desktop Layout](https://i.imgur.com/NwqUmIg.png)
+   
+</div>
 
 ### *Tablet*
 
+<div align="center">
+   
 ![Tablet Layout](https://i.imgur.com/B3Cq9FY.png)
-
+   
+</div>
+   
 ### *Mobile*
 
+<div align="center">
+   
 ![Mobile Layout](https://i.imgur.com/VxVirkr.png)
+   
+</div>
